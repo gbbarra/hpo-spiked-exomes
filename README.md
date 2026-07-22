@@ -77,9 +77,13 @@ Then score across all 200 with `manifest/planted_variants.tsv` as the key. **Sco
   (~100k variants each). Every case uses a **different** sample across diverse populations; no
   background is reused.
 - **Plants** — each causative variant is the **exact `chrom:pos:ref:alt`** from a real
-  **[GA4GH Phenopacket Store](https://github.com/monarch-initiative/phenopacket-store) 0.1.27** case,
-  with that case's **HPO terms**, gene, consequence, and disease. Real ClinVar `CLNSIG` where the
-  coordinate is in ClinVar; a **synthetic** label (flagged in the manifest) where it is not.
+  **[GA4GH Phenopacket Store](https://github.com/monarch-initiative/phenopacket-store) 0.1.27** case
+  (a variant marked `CAUSATIVE` in that packet), with that case's **full HPO term set**, gene,
+  consequence, and disease. Real ClinVar `CLNSIG` where the coordinate is in ClinVar; a **synthetic**
+  label (flagged in the manifest) where it is not.
+- **Scope** — plants are **SNV / small-indel only** (137 SNV + 63 indel); structural variants are out
+  of scope. The per-case `consequence` in `cohort.tsv` is a build-time heuristic — the **authoritative**
+  molecular consequence is in the manifest (see [The answer key](#the-answer-key)).
 - **Faithful genotypes** — the patient's real zygosity.
 - **Consequence spread** — designed to cover missense / stop-gained / frameshift / in-frame / start-loss.
 
@@ -180,6 +184,10 @@ Reference: with the [vcf2report](https://github.com/gbbarra/vcf2report) ACMG eng
 reaches the diagnostic (primary) finding in **178/200** cases; the rest are honest limitations
 (non-coding-RNA plants, HPO-unlinked genes, sub-threshold phenotype, missense held at VUS without
 corroboration) — documented, not hidden.
+
+> This figure predates the v1 full-HPO expansion (SYN-001–100 previously carried a 6-term HPO subset;
+> all 200 now carry the source case's full HPO set) and should be **re-measured** against the current
+> `cohort.tsv` / sidecars.
 
 ## Honest limitations
 
