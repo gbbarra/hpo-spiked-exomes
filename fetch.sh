@@ -32,6 +32,6 @@ echo "Verifying checksums ..." >&2
 $SHA_CHECK SHA256SUMS
 
 mkdir -p realistic realistic_annotated
-zstd -dc hpo_spiked_exomes_realistic.tar.zst           | tar -x -C realistic
-zstd -dc hpo_spiked_exomes_realistic_annotated.tar.zst | tar -x -C realistic_annotated
+zstd -dc hpo_spiked_exomes_realistic.tar.zst           | tar --exclude='._*' -x -C realistic
+zstd -dc hpo_spiked_exomes_realistic_annotated.tar.zst | tar --exclude='._*' -x -C realistic_annotated
 echo "Done: $(ls realistic/SYN-*.vcf.gz 2>/dev/null | wc -l | tr -d ' ') raw + $(ls realistic_annotated/SYN-*.annotated.vcf.gz 2>/dev/null | wc -l | tr -d ' ') annotated exomes." >&2
