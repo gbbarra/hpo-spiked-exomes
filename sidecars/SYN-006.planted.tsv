@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-006	chr9	91737463	G	A	ROR2	het	second				
+SYN-006	chr9	91757380	G	A	ROR2	het	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	7314

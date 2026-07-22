@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-100	chr19	797500	G	A	PTBP1	het	primary	start_lost	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	4528351

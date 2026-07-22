@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-166	chr16	293507	G	A	AXIN1	hom	primary	stop_gained	Uncertain_significance	criteria_provided,_single_submitter	2627026

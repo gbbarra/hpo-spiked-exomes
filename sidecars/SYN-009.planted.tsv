@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-009	chr1	151406100	G	A	POGZ	het	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	218149

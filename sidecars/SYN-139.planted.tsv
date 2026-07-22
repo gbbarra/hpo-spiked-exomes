@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-139	chr15	44715641	G	A	B2M	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	31907

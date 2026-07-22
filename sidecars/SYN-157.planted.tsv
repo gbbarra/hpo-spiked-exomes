@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-157	chr9	35689795	ATCT	A	TPM2	het	primary	inframe_deletion	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	140486

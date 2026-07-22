@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-156	chr11	45805892	G	T	SLC35C1	het	second				
+SYN-156	chr11	45806301	CCTT	C	SLC35C1	het	primary	inframe_indel	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	144046

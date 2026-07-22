@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-015	chr12	56323330	C	A	PAN2	hom	primary	stop_gained	Pathogenic/Likely_pathogenic	no_assertion_criteria_provided	1342923

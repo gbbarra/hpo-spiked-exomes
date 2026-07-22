@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-200	chr4	48548696	A	G	FRYL	het	primary	missense_variant	Uncertain_significance	criteria_provided,_single_submitter	2692414

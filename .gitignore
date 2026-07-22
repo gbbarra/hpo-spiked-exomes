@@ -1,0 +1,6 @@
+realistic/
+realistic_annotated/
+*.tar.zst
+SHA256SUMS
+._*
+.DS_Store

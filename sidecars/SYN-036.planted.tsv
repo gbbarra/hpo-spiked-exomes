@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-036	chr1	27549568	AG	A	AHDC1	het	primary	frameshift_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	133328

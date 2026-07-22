@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-017	chr1	173961865	G	A	RC3H1	hom	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	977475

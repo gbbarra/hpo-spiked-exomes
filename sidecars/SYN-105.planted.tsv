@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-105	chr1	229432596	G	C	ACTA1	het	primary	missense_variant	Likely_pathogenic	reviewed_by_expert_panel	18286

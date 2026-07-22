@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-073	chr16	56510923	T	C	BBS2	hom	primary	splice_acceptor_variant	Pathogenic	criteria_provided,_single_submitter	30550

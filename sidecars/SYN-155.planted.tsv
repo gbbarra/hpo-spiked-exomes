@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-155	chr19	32676355	CGGACTCGCA	C	RGS9BP	hom	primary	inframe_deletion	drug_response	no_assertion_criteria_provided	2499979

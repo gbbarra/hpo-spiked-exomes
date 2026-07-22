@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-121	chr11	111836179	C	T	ALG9	hom	primary	missense_variant	Uncertain_significance	criteria_provided,_single_submitter	3748

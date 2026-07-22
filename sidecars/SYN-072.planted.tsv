@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-072	chr20	3147861	G	A	FASTKD5	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	3899914
+SYN-072	chr20	3148697	T	C	FASTKD5	het	second				

@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-158	chr9	12698521	TCTGCACGGATGA	T	TYRP1	het	primary	inframe_deletion	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	2735262
+SYN-158	chr9	12702424	G	A	TYRP1	het	second				

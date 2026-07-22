@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-103	chr11	17404525	G	A	ABCC8	het	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	210076

@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-132	chr19	10547235	G	A	ATG4D	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	4057227
+SYN-132	chr19	10552265	G	A	ATG4D	het	second				

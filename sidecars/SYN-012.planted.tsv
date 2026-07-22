@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-012	chr22	38727338	C	G	GTPBP1	hom	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	3338050

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-142	chr11	66523885	G	A	BBS1	hom	primary	missense_variant	Pathogenic	criteria provided, single submitter	.

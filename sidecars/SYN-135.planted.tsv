@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-135	chr12	56642532	T	G	ATP5F1B	het	primary	missense_variant	risk_factor	no_assertion_criteria_provided	4759508

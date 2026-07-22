@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-034	chr15	65304715	C	CT	RNU5B-1	het	primary	non-coding_transcript_variant	Uncertain_significance	criteria_provided,_single_submitter	3770164

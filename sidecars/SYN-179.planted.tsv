@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-179	chr1	197124923	TATCCACA	T	ASPM	hom	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.

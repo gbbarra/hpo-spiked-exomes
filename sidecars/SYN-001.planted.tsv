@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-001	chr15	101645162	C	T	TM2D3	het	second				
+SYN-001	chr15	101652355	C	A	TM2D3	het	primary	stop_gained	Pathogenic/Likely_pathogenic	no_assertion_criteria_provided	3370442

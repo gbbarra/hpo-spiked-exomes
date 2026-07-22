@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-070	chr3	15090399	C	G	RBSN	hom	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	3340062

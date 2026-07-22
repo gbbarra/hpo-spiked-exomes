@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-134	chr12	110339543	G	A	ATP2A2	het	primary	missense_variant	Uncertain_significance	criteria_provided,_single_submitter	4854550

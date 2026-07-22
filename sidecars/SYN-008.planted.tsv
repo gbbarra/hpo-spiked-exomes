@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-008	chr12	118052364	C	T	WSB2	hom	primary	stop_gained	Uncertain_significance	criteria_provided,_single_submitter	3391434

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-174	chr10	100205167	G	A	CHUK	hom	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	8946

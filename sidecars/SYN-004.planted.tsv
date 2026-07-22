@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-004	chr5	37022325	C	T	NIPBL	het	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	523876

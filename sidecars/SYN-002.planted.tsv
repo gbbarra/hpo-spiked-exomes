@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-002	chr6	43622077	G	A	GTPBP2	het	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	1705263
+SYN-002	chr6	43625413	G	A	GTPBP2	het	second				

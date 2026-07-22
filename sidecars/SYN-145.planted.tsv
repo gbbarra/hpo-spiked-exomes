@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-145	chr16	31110716	G	C	BCKDK	hom	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	39745

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-040	chr17	81550332	CCGGGCCTTCTT	C	FAAP100	hom	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3910000

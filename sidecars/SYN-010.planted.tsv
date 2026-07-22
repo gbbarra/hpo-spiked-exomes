@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-010	chr1	183635637	G	T	ARPC5	hom	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	2663870

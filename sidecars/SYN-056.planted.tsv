@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-056	chr1	155756957	C	T	GON4L	hom	primary	splice_donor_variant	Pathogenic	no_assertion_criteria_provided	3899955

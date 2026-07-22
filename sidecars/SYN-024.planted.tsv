@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-024	chr6	158170532	T	A	GTF2H5	het	second				
+SYN-024	chr6	158191990	A	T	GTF2H5	het	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	975159

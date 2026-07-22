@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-138	chr22	17592721	G	A	ATP6V1E1	hom	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	417760

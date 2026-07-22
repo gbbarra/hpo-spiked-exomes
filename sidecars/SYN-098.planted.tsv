@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-098	chr16	81090603	G	A	GCSH	het	second				
+SYN-098	chr16	81096278	T	C	GCSH	het	primary	start_lost	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	265685

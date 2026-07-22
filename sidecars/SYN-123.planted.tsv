@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-123	chr11	94799659	C	T	AMOTL1	het	primary	missense_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	2750552

@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-110	chr22	17182620	C	T	ADA2	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	1879547
+SYN-110	chr22	17209539	C	G	ADA2	het	second				

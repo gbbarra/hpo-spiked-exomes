@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-107	chr14	68925641	C	T	ACTN1	het	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	42031

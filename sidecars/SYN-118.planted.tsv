@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-118	chr21	44286007	A	G	AIRE	hom	primary	start_lost	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	551136

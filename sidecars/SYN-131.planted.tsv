@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-131	chr9	130480447	G	A	ASS1	het	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	92375
+SYN-131	chr9	130489464	G	A	ASS1	het	second				

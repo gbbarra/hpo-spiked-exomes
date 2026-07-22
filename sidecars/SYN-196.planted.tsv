@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-196	chr3	58077261	G	C	FLNB	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-037	chr1	1338045	AA	G	DVL1	het	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	208043

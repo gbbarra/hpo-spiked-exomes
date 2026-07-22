@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-164	chrX	77520832	G	A	ATRX	het	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	11728

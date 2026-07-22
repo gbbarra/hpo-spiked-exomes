@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-173	chr15	40472009	T	TA	CHST14	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	816708

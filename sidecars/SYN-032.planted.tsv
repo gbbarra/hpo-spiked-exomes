@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-032	chr15	75903968	AGCCGGTAGGCTGCTGCGGCGAGTGCCGCG	A	FBXO22	hom	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3893215

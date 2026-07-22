@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-168	chr11	34086169	C	T	CAPRIN1	het	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	4855968

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-195	chr9	36169627	A	T	CCIN	hom	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	3236746

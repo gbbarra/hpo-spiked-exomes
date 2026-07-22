@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-048	chr10	68432445	A	AT	DNA2	het	primary	frameshift_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	1710083
+SYN-048	chr10	68461449	T	C	DNA2	het	second				

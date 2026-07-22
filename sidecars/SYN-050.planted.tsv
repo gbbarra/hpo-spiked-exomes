@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-050	chr9	127682459	GC	G	STXBP1	het	primary	frameshift_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	871268

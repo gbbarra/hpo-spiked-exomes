@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-083	chr8	9011704	A	T	ERI1	het	primary	missense_variant	Likely_pathogenic	criteria_provided,_single_submitter	2674625
+SYN-083	chr8	9029877	A	G	ERI1	het	second				

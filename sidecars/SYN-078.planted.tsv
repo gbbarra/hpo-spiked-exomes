@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-078	chr12	49034233	A	G	KMT2D	het	primary	missense_variant	Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	449909

@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-096	chr10	14953908	G	C	DCLRE1C	het	second				
+SYN-096	chr10	14954009	A	G	DCLRE1C	het	primary	start_lost	Uncertain_significance	reviewed_by_expert_panel	4677

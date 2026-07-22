@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-067	chr1	64658704	G	A	CACHD1	het	second				
+SYN-067	chr1	64666168	G	A	CACHD1	het	primary	splice_donor_variant	Pathogenic	no_assertion_criteria_provided	4820569

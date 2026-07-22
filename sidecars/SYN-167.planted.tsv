@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-167	chr11	116762901	G	A	BUD13	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	3767879

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-187	chr6	87434981	C	CA	CFAP206	hom	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	1027670

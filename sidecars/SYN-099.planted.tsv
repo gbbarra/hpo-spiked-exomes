@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-099	chr3	136195113	T	C	MSL2	het	primary	start_lost	Pathogenic	criteria_provided,_single_submitter	4712122

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-013	chr10	97640807	C	A	PI4K2A	hom	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	3024431

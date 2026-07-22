@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-066	chr19	12669353	C	A	WDR83OS	hom	primary	splice_donor_variant	Pathogenic	criteria_provided,_single_submitter	3336829

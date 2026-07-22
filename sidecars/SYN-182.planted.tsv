@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-182	chr10	49324457	GA	G	C10ORF71	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3906946

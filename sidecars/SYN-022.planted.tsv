@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-022	chr19	19354418	C	T	MAU2	het	primary	stop_gained	Likely_pathogenic	criteria_provided,_single_submitter	4291139

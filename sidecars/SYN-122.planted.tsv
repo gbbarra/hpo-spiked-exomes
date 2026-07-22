@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-122	chr14	102922722	CA	C	AMN	het	second				
+SYN-122	chr14	102923978	T	A	AMN	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	873126

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-054	chr19	55663744	G	A	U2AF2	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-172	chr8	60741901	C	T	CHD7	het	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	195321

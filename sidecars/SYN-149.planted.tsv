@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-149	chr2	47161750	C	G	CALM2	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.

@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-046	chr2	27661144	T	TCTGG	SUPT7L	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3770135
+SYN-046	chr2	27661323	C	T	SUPT7L	het	second				

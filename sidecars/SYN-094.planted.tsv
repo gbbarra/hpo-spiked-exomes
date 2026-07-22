@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-094	chr1	1232294	C	T	B3GALT6	het	second				
+SYN-094	chr1	1232684	GTGCTGGCCA	G	B3GALT6	het	primary	inframe_deletion	Uncertain_significance	criteria_provided,_single_submitter	60494

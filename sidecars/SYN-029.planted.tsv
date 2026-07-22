@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-029	chr6	53006393	CAT	C	CILK1	hom	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	3366972

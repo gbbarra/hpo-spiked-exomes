@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-076	chr1	11130747	C	T	MTOR	het	primary	missense_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	217823

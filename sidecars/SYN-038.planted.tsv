@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-038	chrX	24210953	CAT	C	ZFX	het	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	3367188

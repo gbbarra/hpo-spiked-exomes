@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-136	chr16	2519744	A	T	ATP6V0C	het	primary	stop_lost	Pathogenic	criteria_provided,_single_submitter	816939

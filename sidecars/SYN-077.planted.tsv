@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-077	chr12	113006516	C	G	OAS2	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	4528895

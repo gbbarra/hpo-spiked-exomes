@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-181	chr3	9742051	G	GATGC	BRPF1	het	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-082	chr20	50959611	G	A	MOCS3	hom	primary	missense_variant	Pathogenic	criteria provided, single submitter	.

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-063	chr18	44951948	G	A	SETBP1	het	primary	missense_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	1035

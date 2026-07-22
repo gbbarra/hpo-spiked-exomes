@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-026	chr19	19186958	A	G	BORCS8	het	second				
+SYN-026	chr19	19186967	T	TGGCCA	BORCS8	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3363149

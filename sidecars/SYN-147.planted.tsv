@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-147	chr2	27226130	G	A	CAD	het	primary	splice_acceptor_variant	Pathogenic	criteria_provided,_single_submitter	203465
+SYN-147	chr2	27242098	G	A	CAD	het	second				

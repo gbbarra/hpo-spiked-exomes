@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-114	chr16	57659534	C	T	ADGRG1	hom	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	158618

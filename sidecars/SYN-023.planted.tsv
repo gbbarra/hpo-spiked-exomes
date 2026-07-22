@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-023	chr12	54348025	C	T	COPZ1	hom	primary	stop_gained	Pathogenic	criteria provided, single submitter	.

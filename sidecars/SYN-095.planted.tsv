@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-095	chr5	148104940	G	A	SPINK5	het	second				
+SYN-095	chr5	148111891	TTCTTGTGAGTGGGCGGCAGCCACTG	CT	SPINK5	het	primary	splice_donor_variant	Pathogenic	criteria_provided,_single_submitter	625166

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-025	chr8	74320934	G	T	JPH1	hom	primary	stop_gained	Likely_pathogenic	criteria_provided,_single_submitter	2683803

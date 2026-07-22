@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-161	chr13	99982753	C	CCCA	ZIC2	het	primary	inframe_insertion	Benign/Likely_benign	criteria_provided,_multiple_submitters,_no_conflicts	95448

@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-197	chr19	38283685	G	GTA	SPINT2	het	primary	frameshift_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	3062101
+SYN-197	chr19	38290215	A	G	SPINT2	het	second				

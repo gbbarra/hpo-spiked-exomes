@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-051	chrX	15324864	C	T	PIGA	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.

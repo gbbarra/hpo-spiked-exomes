@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-184	chr7	77282747	AG	A	CCDC146	hom	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	2687891

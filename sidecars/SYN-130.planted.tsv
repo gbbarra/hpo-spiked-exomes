@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-130	chr6	100601832	G	A	ASCC3	het	second				
+SYN-130	chr6	100606829	C	T	ASCC3	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	2691809

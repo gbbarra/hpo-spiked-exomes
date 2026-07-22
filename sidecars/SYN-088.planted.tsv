@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-088	chr3	25629071	ATGC	A	TOP2B	het	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.

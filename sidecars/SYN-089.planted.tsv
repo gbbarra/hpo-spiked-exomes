@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-089	chr19	51354220	GCCT	G	ETFB	hom	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.

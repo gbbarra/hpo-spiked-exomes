@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-055	chr6	98875675	A	G	FBXL4	hom	primary	missense_variant	Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	224911

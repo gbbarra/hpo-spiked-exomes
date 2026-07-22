@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-185	chr1	156311164	TG	T	CCT3	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3544400

@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-190	chr2	6865695	A	G	CMPK2	hom	primary	start_lost	Pathogenic	no_assertion_criteria_provided	3381199

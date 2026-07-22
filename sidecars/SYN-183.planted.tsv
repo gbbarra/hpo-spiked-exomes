@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-183	chr11	65183541	TC	T	CAPN1	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	225767
+SYN-183	chr11	65206824	G	A	CAPN1	het	second				

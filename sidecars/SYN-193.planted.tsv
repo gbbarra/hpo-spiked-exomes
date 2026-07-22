@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-193	chr17	41571523	A	C	KRT9	het	primary	missense_variant	not_provided	no_classification_provided	66153

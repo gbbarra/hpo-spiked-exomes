@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-191	chr16	19067667	G	T	COQ7	hom	primary	start_lost	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	1463095

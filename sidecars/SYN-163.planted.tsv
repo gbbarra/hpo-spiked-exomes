@@ -1,0 +1,3 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-163	chr19	7467400	G	T	ARHGEF18	het	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	417757
+SYN-163	chr19	7467500	GCGAGCGGCTGGAGCAGGAGCGGGC	G	ARHGEF18	het	second				

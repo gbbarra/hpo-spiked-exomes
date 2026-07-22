@@ -1,0 +1,2 @@
+syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
+SYN-192	chr1	182388737	T	A	GLUL	het	primary	start_lost	Pathogenic	criteria_provided,_single_submitter	430447
