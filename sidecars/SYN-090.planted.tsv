@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-090	chr22	20990489	CCAA	C	LZTR1	het	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
+SYN-090	chr22	20990489	CCAA	C	LZTR1	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.

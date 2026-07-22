@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-171	chr1	43224076	C	T	CFAP57	hom	primary	stop_gained	Pathogenic	criteria provided, single submitter	.
+SYN-171	chr1	43224076	C	T	CFAP57	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	.

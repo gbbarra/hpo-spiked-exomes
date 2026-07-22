@@ -7,7 +7,16 @@ REPO="gbbarra/hpo-spiked-exomes"
 TAG="${1:-data-v1}"
 cd "$(cd "$(dirname "$0")" && pwd)"
 
-command -v zstd >/dev/null || { echo "ERROR: zstd not found (brew install zstd)." >&2; exit 1; }
+command -v zstd >/dev/null || {
+  echo "ERROR: zstd not found (macOS: brew install zstd  |  Debian/Ubuntu: apt-get install zstd)." >&2
+  exit 1
+}
+
+# Checksum tool: shasum (ships with macOS + perl) or sha256sum (coreutils on Linux).
+if command -v shasum >/dev/null;   then SHA_CHECK="shasum -a 256 -c"
+elif command -v sha256sum >/dev/null; then SHA_CHECK="sha256sum -c"
+else echo "ERROR: need shasum or sha256sum to verify checksums." >&2; exit 1
+fi
 
 echo "Fetching $REPO release $TAG ..." >&2
 if command -v gh >/dev/null; then
@@ -20,7 +29,7 @@ else
 fi
 
 echo "Verifying checksums ..." >&2
-shasum -a 256 -c SHA256SUMS
+$SHA_CHECK SHA256SUMS
 
 mkdir -p realistic realistic_annotated
 zstd -dc hpo_spiked_exomes_realistic.tar.zst           | tar -x -C realistic

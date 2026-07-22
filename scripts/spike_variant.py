@@ -143,7 +143,9 @@ def main():
         "csq": _clean(cv.get("csq") or a.consequence or "missense_variant"),
         # exact ClinVar record when the coord matches this release; else a synthetic Pathogenic label
         "clnsig": _clean(cv.get("clnsig") or "Pathogenic"),
-        "clnrevstat": cv.get("clnrevstat") or ("criteria provided, single submitter" if not cv else ""),
+        # ClinVar's own CLNREVSTAT uses underscores; keep the synthetic default in the same encoding
+        # so the manifest never mixes "criteria provided, single submitter" with the underscored form.
+        "clnrevstat": cv.get("clnrevstat") or ("criteria_provided,_single_submitter" if not cv else ""),
         "clndn": _clean(cv.get("clndn") or a.disease or ""),
     }
     src = "exact ClinVar match" if cv else "coord planted; synthetic CLNSIG (not in this ClinVar)"
