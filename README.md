@@ -50,7 +50,7 @@ After `fetch.sh`:
 | `realistic/SYN-NNN.vcf.gz` | **Raw, tell-free** VCF — the plant carries a real DRAGEN call's INFO/FORMAT and **no marker**. Un-annotated. |
 | `realistic_annotated/SYN-NNN.annotated.vcf.gz` | The **same** VCF **SnpEff-annotated** (`GRCh38.mane.1.5.refseq`) — `ANN/LOF/NMD` added, still tell-free. |
 | `manifest/planted_variants.tsv` | **The answer key** — every planted allele (see the schema below). |
-| `manifest/cohort.tsv` | Per-sample config (sample id, gene, coord, consequence, disease, HPO). |
+| `manifest/cohort.tsv` | Per-sample config (sample id, gene, coord, consequence, disease, HPO). ⚠️ `disease` is populated for SYN-001–100 only; SYN-101–200 (the expansion batch) leave it blank — the diagnostic label there is the gene + HPO, not a disease string. |
 | `sidecars/SYN-NNN.planted.tsv` · `sidecars/SYN-NNN.hpo.txt` | Per-sample answer key + HPO terms (one `HP:` per line). |
 
 The raw VCFs are **byte-derivable** from the annotated (`bcftools annotate -x INFO/ANN,INFO/LOF,INFO/NMD`),
@@ -81,20 +81,31 @@ Then score across all 200 with `manifest/planted_variants.tsv` as the key. **Sco
   with that case's **HPO terms**, gene, consequence, and disease. Real ClinVar `CLNSIG` where the
   coordinate is in ClinVar; a **synthetic** label (flagged in the manifest) where it is not.
 - **Faithful genotypes** — the patient's real zygosity.
-- **Consequence spread** — stratified across missense / stop-gained / frameshift / in-frame / start-loss.
+- **Consequence spread** — designed to cover missense / stop-gained / frameshift / in-frame / start-loss.
 
 ### Cohort composition
 
-| Molecular consequence | n | | Genotype of the plant | n |
+The consequence counts below are from the **answer key** (`manifest/planted_variants.tsv`) — the real
+per-allele term a scorer should check against. `cohort.tsv` also has a `consequence` column, but it is
+a **coarse 5-bucket design label** and diverges from the answer key for 34 cases (see the note under
+[The answer key](#the-answer-key)); score against the manifest, not the cohort column.
+
+| Molecular consequence (answer key) | n | | Genotype of the plant | n |
 |---|---:|---|---|---:|
-| missense | 91 | | single-allele heterozygous | 85 |
-| frameshift | 41 | | **compound heterozygous** (both true alleles) | 40 |
-| stop-gained | 38 | | homozygous | 75 |
-| in-frame indel | 21 | | | |
+| missense | 76 | | single-allele heterozygous | 85 |
+| stop-gained | 42 | | **compound heterozygous** (both true alleles) | 40 |
+| frameshift | 36 | | homozygous | 75 |
+| in-frame (indel / deletion / insertion) | 19 | | | |
+| splice donor / acceptor | 11 | | | |
 | start-loss | 9 | | | |
+| non-coding / intron | 5 | | | |
+| stop-loss | 2 | | | |
 | **Total primary plants** | **200** | | **Total** | **200** |
 
 240 planted alleles in all = 200 primary + 40 trans (`second`) alleles for the compound-het cases.
+The splice / non-coding / stop-loss tail is exactly why a few plants land at VUS in the reference
+run — the honest, [de-circularized](#the-realistic-tell-free-transform--and-the-honest-adjustments)
+consequence, not the coarse bucket.
 
 ## The answer key
 
@@ -107,12 +118,18 @@ Then score across all 200 with `manifest/planted_variants.tsv` as the key. **Sco
 | `gene` | Gene symbol | HGNC symbol |
 | `zygosity` | Genotype of the planted call | `het` \| `hom` |
 | `allele` | Role of this row | `primary` (the reported causative allele) \| `second` (trans allele of a compound-het case) |
-| `consequence` | Molecular consequence *(primary rows only)* | `missense_variant`, `stop_gained`, `frameshift_variant`, `inframe_indel`, `start_lost`, … |
+| `consequence` | **Authoritative** molecular consequence *(primary rows only)* — the real ClinVar MC term | `missense_variant`, `stop_gained`, `frameshift_variant`, `inframe_deletion`, `splice_donor_variant`, `start_lost`, `non-coding_transcript_variant`, … |
 | `clnsig` | ClinVar significance carried from the exact coordinate; **synthetic `Pathogenic`** when `clnvid` is empty | ClinVar CLNSIG string |
 | `clnrevstat` | ClinVar review status *(underscored ClinVar encoding)* | e.g. `criteria_provided,_multiple_submitters,_no_conflicts` |
 | `clnvid` | ClinVar Variation ID; **empty ⇒ coordinate absent from the ClinVar release ⇒ `clnsig` is synthetic** | integer or empty |
 
 `second`-allele rows leave `consequence` / `clnsig` / `clnrevstat` / `clnvid` blank.
+
+> **Two `consequence` columns, on purpose.** `manifest.consequence` (above) is the authoritative
+> per-allele term from ClinVar's molecular consequence — **score against this**. `cohort.tsv.consequence`
+> is the coarse 5-bucket design label used to plan the stratification; it differs for 34 cases (e.g. a
+> planned `missense` that ClinVar's MC calls `splice_donor_variant`, or an in-frame indel resolved to
+> `inframe_deletion`). The divergence is the intended [de-circularization](#the-realistic-tell-free-transform--and-the-honest-adjustments), not an error.
 
 ### ClinVar label of the primary plant
 
@@ -173,6 +190,8 @@ corroboration) — documented, not hidden.
   **29/200** carry a **real but non-P/LP** label (VUS / Conflicting / Benign / …). Both are flagged in
   `manifest/planted_variants.tsv`.
 - **GRCh38 only.**
+- `cohort.tsv`'s `disease` name is filled for **SYN-001–100 only**; the SYN-101–200 expansion batch
+  leaves it blank (gene + HPO still fully specified). Disease is not carried in the manifest/sidecars.
 
 ## Reproducibility — versions
 
