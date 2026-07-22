@@ -24,6 +24,26 @@ source case is biallelic) **planted at an exact coordinate**. The answer key is 
 
 ---
 
+## Reference results — what a tool produces on these cases
+
+Scored **blind** with the [vcf2report](https://github.com/gbbarra/vcf2report) ACMG engine: the planted
+gene is recovered as the primary (diagnostic) finding in **177 / 200 (88.5%)**. A representative six —
+note it spans confident diagnoses, conservative VUS holds, a recessive carrier, and a triaged VUS:
+
+| Case | Gene | Disease | Variant | vcf2report finding |
+|---|---|---|---|---|
+| SYN-004 | NIPBL | Cornelia de Lange 1 | `p.Arg1837*` (stop-gain) | **Pathogenic** — primary |
+| SYN-073 | BBS2 | Bardet-Biedl 2 | splice-acceptor | **Pathogenic** — primary |
+| SYN-051 | PIGA | Congenital anomalies-hypotonia-seizures | missense | ranked #1 (phenotype), held at **VUS** |
+| SYN-093 | TGFBR1 | Loeys-Dietz 1 | in-frame deletion | ranked #1 (phenotype), held at **VUS** |
+| SYN-197 | SPINT2 | Congenital secretory diarrhea | frameshift (het) | **carrier** (recessive, not a diagnosis) |
+| SYN-070 | RBSN | Congenital myelofibrosis | missense | **VUS — flagged** for review |
+
+Your tool's job: recover the planted gene (in `manifest/`) from the tell-free `realistic/` VCF + the
+case's HPO — the honest, phenotype-driven test.
+
+---
+
 ## Get the data
 
 The VCFs (~3 GB) ship as **[release assets](https://github.com/gbbarra/hpo-spiked-exomes/releases)**;
