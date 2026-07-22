@@ -1,0 +1,29 @@
+{
+  "title": "hpo-spiked-exomes: a tell-free benchmark of HPO-linked pathogenic variants spiked into real exomes",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "MIT",
+  "description": "A ground-truth benchmark for variant annotators, variant callers, and clinical-report generators. 200 real, healthy 1000 Genomes exomes (Illumina DRAGEN v4.4.7), each carrying one known pathogenic variant from a real GA4GH Phenopacket-Store case planted tell-free at an exact GRCh38 coordinate, with that case's Human Phenotype Ontology terms and diagnosis (plus the real second allele where the source case is biallelic). The plant is indistinguishable from a genuine call, so tools can be scored blind; the answer key (gene, coordinate, consequence, HPO, disease) lives in the repository, and the VCFs ship as release assets. Synthetic, de-identified, not for clinical use.",
+  "creators": [
+    { "name": "Barra, Gustavo Barcelos" }
+  ],
+  "keywords": [
+    "benchmark",
+    "variant interpretation",
+    "ACMG",
+    "Human Phenotype Ontology",
+    "phenopacket",
+    "1000 Genomes",
+    "exome sequencing",
+    "VCF",
+    "SnpEff",
+    "clinical genomics",
+    "rare disease",
+    "ground truth"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://github.com/gbbarra/hpo-spiked-exomes", "relation": "isSourceOf", "scheme": "url" },
+    { "identifier": "https://github.com/gbbarra/vcf2report", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://github.com/monarch-initiative/phenopacket-store", "relation": "references", "scheme": "url" }
+  ]
+}
