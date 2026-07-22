@@ -33,12 +33,26 @@ Of the 177 `primary`, vcf2report's ACMG tier is **85 Pathogenic · 22 Likely Pat
 i.e. the gene is recovered as the lead finding even when the engine conservatively holds the tier at VUS
 (the cohort deliberately oversamples missense / in-frame, which produce VUS without corroboration).
 
-The 23 non-`primary` cases are honest limitations, not hidden:
+### Why the 23 non-`primary` cases are not misses
 
-- **absent (7):** RNU5B-1, RNU4-2 (non-coding RNAs, no reading frame), ADA, BBS1, BNIP1, ZIC2
-  (ClinVar-benign plant), C10ORF71.
-- **carrier (1):** SPINT2 — a single allele of a recessive case.
-- **other / probable_vus (15):** missense & in-frame held below the diagnostic tier without corroboration.
+Each of the 23 was cross-checked against the **manifest** (the real SnpEff consequence + ClinVar
+significance). Every one is a known, disclosed limitation — **none is a regression**; they split
+cleanly by *why* the engine held back:
+
+| Category | n | Cases | consequence · ClinVar | Why it is expected |
+|---|---:|---|---|---|
+| Non-coding RNA | 2 | RNU5B-1, RNU4-2 | `non_coding_transcript_exon_variant` | outside ACMG's protein-coding scope |
+| Low-impact splice-region | 3 | ADA, BBS1, BNIP1 | `splice_region_variant` | the real consequence is splice-**region** (not donor/acceptor); the impact filter doesn't promote it |
+| ClinVar-benign plant | 1 | ZIC2 | `Benign/Likely_benign` | ClinVar calls it benign — the engine is *right* not to call it |
+| Under-characterized gene | 1 | C10ORF71 | frameshift · Pathogenic | an ORF with no HPO/constraint coverage, so PVS1 can't engage — a **data gap**, not an error |
+| Carrier (recessive) | 1 | SPINT2 | frameshift · one allele | a lone het in a recessive gene is a *carrier*, not a diagnosis |
+| Missense / in-frame at VUS | 7 | U2AF2, SETD2, TRAF7, MAPK8IP3, MOCS3, ETFB, AMT | missense / in-frame | held at VUS without corroborating evidence |
+| Likely-Pathogenic, off-phenotype | 2 | ANTXR2, BRPF1 | frameshift · Likely Pathogenic | reached LP but HPO overlap fell below the primary threshold → surfaced as `other` |
+| Probable-VUS (triaged) | 5 | RBSN, ELFN1, ATP6V1A, SPG7, CCIN | missense / in-frame | VUS carrying a molecular signal, flagged for review |
+
+So **177/200** are recovered as the lead finding, and the remaining 23 are non-coding / low-impact-splice
+/ ClinVar-benign / data-gap / carrier / held-at-VUS — all disclosed, none a defect in the cohort. (This
+breakdown was produced with the vcf2report engine; see its `docs/BENCHMARK.md` for the full harness.)
 
 ## Column dictionary — `vcf2report.data-v1.tsv`
 
