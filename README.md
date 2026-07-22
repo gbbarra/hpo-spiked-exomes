@@ -99,8 +99,13 @@ corroboration) — documented, not hidden.
 Reproducibility scripts under `scripts/` (the tell-free transform + HPO sidecar generator); the full
 build pipeline is in [vcf2report](https://github.com/gbbarra/vcf2report).
 
+## Citation
+
+Barra, G. B. *hpo-spiked-exomes: a tell-free benchmark of HPO-linked pathogenic variants spiked into
+real exomes* (2026). https://github.com/gbbarra/hpo-spiked-exomes
+
 ## License
 
-Tooling and the answer key: **MIT** (see `LICENSE`). The VCF data derives from public sources, each
+Tooling and the answer key: **MIT** (see `LICENSE`) © Gustavo Barcelos Barra (gbbarra). The VCF data derives from public sources, each
 under its own license (1000 Genomes open; Phenopacket Store open; ClinVar public domain). No
 AlphaMissense data is redistributed here.
