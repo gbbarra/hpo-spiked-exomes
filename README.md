@@ -198,12 +198,17 @@ Two adjustments were needed, disclosed transparently:
 - **Report generator** — run your pipeline on a sample + its `sidecars/SYN-NNN.hpo.txt`; the expected
   finding is the planted gene (manifest). Score blind on `realistic/`.
 
-Reference: with the [vcf2report](https://github.com/gbbarra/vcf2report) ACMG engine, the planted variant
-reaches the diagnostic (**primary**) finding in **177/200 (88.5%)** cases — measured on the current
-cohort (full-HPO sidecars + SnpEff-reconciled consequence). The other 23 are honest limitations, not
-hidden: **7 absent** (the non-coding-RNA plants *RNU5B-1* / *RNU4-2*, a ClinVar-benign plant *ZIC2*, and
-a few HPO-weak genes), **1 carrier** (a single allele of a recessive case, *SPINT2*), and **15 held below
-the diagnostic tier** (missense / in-frame at VUS or probable-pathogenic, without corroboration).
+**Reference result — one specific tool.** The per-case outcomes are the **expected result of the
+[vcf2report](https://github.com/gbbarra/vcf2report) ACMG engine — a *separate* tool/repository**, used
+there as its validation set. They are **not part of the answer key**: the ground truth (gene ·
+coordinate · HPO · disease) is tool-agnostic, and a different classifier will land different tiers —
+score your tool against the **manifest** (did it recover the planted gene?), not against these tiers.
+With vcf2report on the current cohort (full-HPO sidecars + SnpEff-reconciled consequence), the planted
+variant reaches the diagnostic (**primary**) finding in **177/200 (88.5%)**. The other 23 are honest
+limitations, not hidden: **7 absent** (the non-coding-RNA plants *RNU5B-1* / *RNU4-2*, a ClinVar-benign
+plant *ZIC2*, a few HPO-weak genes), **1 carrier** (a single allele of a recessive case, *SPINT2*), and
+**15 held below the diagnostic tier** (missense / in-frame at VUS or probable-pathogenic). Full per-case
+results + provenance: [`benchmark/`](benchmark/README.md).
 
 ## Honest limitations
 
