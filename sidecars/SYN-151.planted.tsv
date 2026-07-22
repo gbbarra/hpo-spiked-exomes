@@ -1,3 +1,3 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
 SYN-151	chr21	46125265	G	T	COL6A2	het	second				
-SYN-151	chr21	46125500	TTCGTCA	T	COL6A2	het	primary	inframe_deletion	Pathogenic	no_assertion_criteria_provided	36916
+SYN-151	chr21	46125500	TTCGTCA	T	COL6A2	het	primary	disruptive_inframe_deletion	Pathogenic	no_assertion_criteria_provided	36916

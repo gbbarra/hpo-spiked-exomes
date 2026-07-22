@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-042	chr12	120291839	T	TA	RNU4-2	het	primary	non-coding_transcript_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	3068742
+SYN-042	chr12	120291839	T	TA	RNU4-2	het	primary	non_coding_transcript_exon_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	3068742

@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-093	chr9	99137977	TAAGATA	C	TGFBR1	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
+SYN-093	chr9	99137977	TAAGATA	C	TGFBR1	het	primary	conservative_inframe_deletion	Pathogenic	criteria_provided,_single_submitter	.

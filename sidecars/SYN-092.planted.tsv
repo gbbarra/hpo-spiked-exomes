@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-092	chr5	14713618	GGTTTTCTTCAGT	G	ANKH	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
+SYN-092	chr5	14713618	GGTTTTCTTCAGT	G	ANKH	het	primary	disruptive_inframe_deletion	Pathogenic	criteria_provided,_single_submitter	.

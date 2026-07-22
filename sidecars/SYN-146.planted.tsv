@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-146	chr5	173144632	A	T	BNIP1	hom	primary	intron_variant	Uncertain_significance	criteria_provided,_single_submitter	1013617
+SYN-146	chr5	173144632	A	T	BNIP1	hom	primary	splice_region_variant	Uncertain_significance	criteria_provided,_single_submitter	1013617

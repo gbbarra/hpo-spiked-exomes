@@ -70,6 +70,26 @@ your-report-pipeline \
 Then score across all 200 with `manifest/planted_variants.tsv` as the key. **Score blind on
 `realistic/`** — the plant carries no synthetic hint.
 
+## Data corrections (post `data-v1`)
+
+**Consequence field reconciled to the real annotator.** An independent audit (with the
+[vcf2report](https://github.com/gbbarra/vcf2report) engine) compared the manifest `consequence`
+against what SnpEff (`GRCh38.mane.1.5.refseq`) actually calls at each planted coordinate in
+`realistic_annotated/`. **Coordinates, alleles, genes and zygosities were all correct** (0
+mismatches) — but the `consequence` label carried a naive / source-derived value that disagreed with
+the real annotator: e.g. `frameshift_variant` on the non-coding RNAs *RNU5B-1* / *RNU4-2* (no reading
+frame), `missense_variant` for variants that are actually at a splice donor/acceptor site or
+intronic, and a `stop_gained` that is really a frameshift indel. `manifest/cohort.tsv`,
+`manifest/planted_variants.tsv` (primary alleles) and `sidecars/*.planted.tsv` now carry the
+most-severe SO term SnpEff assigns to the planted gene — the two manifests, previously inconsistent,
+now agree. Reproducible with `scripts/reconcile_consequence.py --annotated realistic_annotated`.
+
+**Only the consequence label changed** — coordinates/alleles are untouched, so the `data-v1` VCF
+assets remain valid and need no re-release. This makes the answer key usable for scoring an
+**annotator** (consequence/HGVS), not just a gene-recovery report tool. (Terms are SnpEff-specific SO,
+e.g. `disruptive_inframe_deletion` / `splice_region_variant`; normalizing to annotator-agnostic terms
+is a possible follow-up.)
+
 ## What's inside: 200 cases
 
 - **Backgrounds** — 200 **distinct** 1000 Genomes **DRAGEN v4.4.7** exomes (public AWS Open Data bucket
