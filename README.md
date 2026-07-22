@@ -199,13 +199,11 @@ Two adjustments were needed, disclosed transparently:
   finding is the planted gene (manifest). Score blind on `realistic/`.
 
 Reference: with the [vcf2report](https://github.com/gbbarra/vcf2report) ACMG engine, the planted variant
-reaches the diagnostic (primary) finding in **178/200** cases; the rest are honest limitations
-(non-coding-RNA plants, HPO-unlinked genes, sub-threshold phenotype, missense held at VUS without
-corroboration) — documented, not hidden.
-
-> This figure predates the v1 full-HPO expansion (SYN-001–100 previously carried a 6-term HPO subset;
-> all 200 now carry the source case's full HPO set) and should be **re-measured** against the current
-> `cohort.tsv` / sidecars.
+reaches the diagnostic (**primary**) finding in **177/200 (88.5%)** cases — measured on the current
+cohort (full-HPO sidecars + SnpEff-reconciled consequence). The other 23 are honest limitations, not
+hidden: **7 absent** (the non-coding-RNA plants *RNU5B-1* / *RNU4-2*, a ClinVar-benign plant *ZIC2*, and
+a few HPO-weak genes), **1 carrier** (a single allele of a recessive case, *SPINT2*), and **15 held below
+the diagnostic tier** (missense / in-frame at VUS or probable-pathogenic, without corroboration).
 
 ## Honest limitations
 
