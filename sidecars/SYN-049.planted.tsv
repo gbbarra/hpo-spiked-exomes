@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-049	chr20	61976329	C	CGTCG	TAF4	het	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
+SYN-049	chr20	61976329	C	CGTCG	TAF4	het	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.

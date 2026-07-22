@@ -1,3 +1,3 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
 SYN-113	chr9	133547073	G	A	ADAMTSL2	het	second				
-SYN-113	chr9	133570448	G	T	ADAMTSL2	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-113	chr9	133570448	G	T	ADAMTSL2	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.

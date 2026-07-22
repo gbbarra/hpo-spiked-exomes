@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-075	chr16	2174315	T	G	TRAF7	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-075	chr16	2174315	T	G	TRAF7	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.

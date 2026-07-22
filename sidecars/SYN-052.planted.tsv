@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-052	chr21	33581355	G	A	DONSON	hom	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-052	chr21	33581355	G	A	DONSON	hom	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.

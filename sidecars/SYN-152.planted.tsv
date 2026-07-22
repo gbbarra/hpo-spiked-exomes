@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-152	chr19	18786623	GGGC	G	COMP	het	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
+SYN-152	chr19	18786623	GGGC	G	COMP	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.

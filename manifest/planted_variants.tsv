@@ -3,7 +3,7 @@ SYN-001	chr15	101645162	C	T	TM2D3	het	second
 SYN-001	chr15	101652355	C	A	TM2D3	het	primary	stop_gained	Pathogenic/Likely_pathogenic	no_assertion_criteria_provided	3370442
 SYN-002	chr6	43622077	G	A	GTPBP2	het	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	1705263
 SYN-002	chr6	43625413	G	A	GTPBP2	het	second				
-SYN-003	chr14	47061564	G	A	MDGA2	hom	primary	stop_gained	Pathogenic	criteria provided, single submitter	.
+SYN-003	chr14	47061564	G	A	MDGA2	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	.
 SYN-004	chr5	37022325	C	T	NIPBL	het	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	523876
 SYN-005	chr21	33549517	C	T	SON	het	primary	stop_gained	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	252926
 SYN-006	chr9	91737463	G	A	ROR2	het	second				
@@ -24,7 +24,7 @@ SYN-019	chr6	142771882	C	A	HIVEP2	het	primary	stop_gained	Pathogenic	criteria_pr
 SYN-020	chr18	47869288	C	A	SMAD2	het	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	419441
 SYN-021	chr19	17669643	G	A	UNC13A	hom	primary	stop_gained	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	372219
 SYN-022	chr19	19354418	C	T	MAU2	het	primary	stop_gained	Likely_pathogenic	criteria_provided,_single_submitter	4291139
-SYN-023	chr12	54348025	C	T	COPZ1	hom	primary	stop_gained	Pathogenic	criteria provided, single submitter	.
+SYN-023	chr12	54348025	C	T	COPZ1	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	.
 SYN-024	chr6	158170532	T	A	GTF2H5	het	second				
 SYN-024	chr6	158191990	A	T	GTF2H5	het	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	975159
 SYN-025	chr8	74320934	G	T	JPH1	hom	primary	stop_gained	Likely_pathogenic	criteria_provided,_single_submitter	2683803
@@ -33,8 +33,8 @@ SYN-026	chr19	19186967	T	TGGCCA	BORCS8	het	primary	frameshift_variant	Pathogenic
 SYN-027	chrX	15822999	CAG	C	ZRSR2	het	primary	frameshift_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	978620
 SYN-028	chr3	45833099	GGCTTT	G	LZTFL1	hom	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	39770
 SYN-029	chr6	53006393	CAT	C	CILK1	hom	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	3366972
-SYN-030	chr2	98535775	ACT	A	INPP4A	hom	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
-SYN-031	chr1	228145513	A	ATGGCTGCGGCGCCCGCTGGCCGGGC	GUK1	het	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
+SYN-030	chr2	98535775	ACT	A	INPP4A	hom	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.
+SYN-031	chr1	228145513	A	ATGGCTGCGGCGCCCGCTGGCCGGGC	GUK1	het	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-031	chr1	228145543	G	A	GUK1	het	second				
 SYN-032	chr15	75903968	AGCCGGTAGGCTGCTGCGGCGAGTGCCGCG	A	FBXO22	hom	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3893215
 SYN-033	chr2	128108039	TACTC	T	UGGT1	het	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	4280138
@@ -55,15 +55,15 @@ SYN-044	chrX	54495379	CG	C	FGD1	het	primary	frameshift_variant	Likely_pathogenic
 SYN-045	chr9	1051741	AC	A	DMRT2	hom	primary	frameshift_variant	Likely_pathogenic	criteria_provided,_single_submitter	3900977
 SYN-046	chr2	27661144	T	TCTGG	SUPT7L	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3770135
 SYN-046	chr2	27661323	C	T	SUPT7L	het	second				
-SYN-047	chr1	218405215	AT	A	TGFB2	het	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
+SYN-047	chr1	218405215	AT	A	TGFB2	het	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-048	chr10	68432445	A	AT	DNA2	het	primary	frameshift_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	1710083
 SYN-048	chr10	68461449	T	C	DNA2	het	second				
-SYN-049	chr20	61976329	C	CGTCG	TAF4	het	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
+SYN-049	chr20	61976329	C	CGTCG	TAF4	het	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-050	chr9	127682459	GC	G	STXBP1	het	primary	frameshift_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	871268
-SYN-051	chrX	15324864	C	T	PIGA	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
-SYN-052	chr21	33581355	G	A	DONSON	hom	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-051	chrX	15324864	C	T	PIGA	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
+SYN-052	chr21	33581355	G	A	DONSON	hom	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-053	chr12	68648759	G	A	RAP1B	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	2672309
-SYN-054	chr19	55663744	G	A	U2AF2	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-054	chr19	55663744	G	A	U2AF2	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-055	chr6	98875675	A	G	FBXL4	hom	primary	missense_variant	Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	224911
 SYN-056	chr1	155756957	C	T	GON4L	hom	primary	splice_donor_variant	Pathogenic	no_assertion_criteria_provided	3899955
 SYN-057	chr19	2185862	T	G	DOT1L	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	4056361
@@ -88,7 +88,7 @@ SYN-072	chr20	3147861	G	A	FASTKD5	het	primary	missense_variant	Pathogenic	no_ass
 SYN-072	chr20	3148697	T	C	FASTKD5	het	second				
 SYN-073	chr16	56510923	T	C	BBS2	hom	primary	splice_acceptor_variant	Pathogenic	criteria_provided,_single_submitter	30550
 SYN-074	chr3	50297141	A	G	NAA80	hom	primary	missense_variant	Pathogenic/Likely_pathogenic	no_assertion_criteria_provided	1301869
-SYN-075	chr16	2174315	T	G	TRAF7	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-075	chr16	2174315	T	G	TRAF7	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-076	chr1	11130747	C	T	MTOR	het	primary	missense_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	217823
 SYN-077	chr12	113006516	C	G	OAS2	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	4528895
 SYN-078	chr12	49034233	A	G	KMT2D	het	primary	missense_variant	Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	449909
@@ -96,7 +96,7 @@ SYN-079	chr11	121303461	G	A	SC5D	het	second
 SYN-079	chr11	121307244	G	A	SC5D	het	primary	missense_variant	Likely_pathogenic	criteria_provided,_single_submitter	7355
 SYN-080	chr2	186625496	G	C	ITGAV	hom	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	2663809
 SYN-081	chr16	1767834	C	T	MAPK8IP3	het	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	632565
-SYN-082	chr20	50959611	G	A	MOCS3	hom	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-082	chr20	50959611	G	A	MOCS3	hom	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-083	chr8	9011704	A	T	ERI1	het	primary	missense_variant	Likely_pathogenic	criteria_provided,_single_submitter	2674625
 SYN-083	chr8	9029877	A	G	ERI1	het	second				
 SYN-084	chr16	89693468	G	A	CDK10	hom	primary	splice_donor_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	440757
@@ -104,12 +104,12 @@ SYN-085	chr3	9942863	T	C	CRELD1	het	primary	missense_variant	Conflicting_classif
 SYN-085	chr3	9943425	CA	C	CRELD1	het	second				
 SYN-086	chr10	110589913	T	TGCA	SMC3	het	primary	inframe_insertion	Uncertain_significance	criteria_provided,_single_submitter	212271
 SYN-087	chr22	23833669	GAGA	G	SMARCB1	het	primary	inframe_deletion	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	30201
-SYN-088	chr3	25629071	ATGC	A	TOP2B	het	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
-SYN-089	chr19	51354220	GCCT	G	ETFB	hom	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
-SYN-090	chr22	20990489	CCAA	C	LZTR1	het	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
+SYN-088	chr3	25629071	ATGC	A	TOP2B	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
+SYN-089	chr19	51354220	GCCT	G	ETFB	hom	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
+SYN-090	chr22	20990489	CCAA	C	LZTR1	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
 SYN-091	chr7	1745068	ATCG	A	ELFN1	hom	primary	inframe_indel	Pathogenic	no_assertion_criteria_provided	4083485
-SYN-092	chr5	14713618	GGTTTTCTTCAGT	G	ANKH	het	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
-SYN-093	chr9	99137977	TAAGATA	C	TGFBR1	het	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
+SYN-092	chr5	14713618	GGTTTTCTTCAGT	G	ANKH	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
+SYN-093	chr9	99137977	TAAGATA	C	TGFBR1	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
 SYN-094	chr1	1232294	C	T	B3GALT6	het	second				
 SYN-094	chr1	1232684	GTGCTGGCCA	G	B3GALT6	het	primary	inframe_deletion	Uncertain_significance	criteria_provided,_single_submitter	60494
 SYN-095	chr5	148104940	G	A	SPINK5	het	second				
@@ -126,16 +126,16 @@ SYN-102	chrX	75053585	C	T	ABCB7	het	primary	missense_variant	Likely_pathogenic	c
 SYN-103	chr11	17404525	G	A	ABCC8	het	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	210076
 SYN-104	chr1	180502080	C	A	ACBD6	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	3242366
 SYN-105	chr1	229432596	G	C	ACTA1	het	primary	missense_variant	Likely_pathogenic	reviewed_by_expert_panel	18286
-SYN-106	chr7	5528050	A	C	ACTB	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-106	chr7	5528050	A	C	ACTB	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-107	chr14	68925641	C	T	ACTN1	het	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	42031
 SYN-108	chr2	157774114	C	T	ACVR1	het	primary	missense_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	18309
-SYN-109	chr20	44625566	C	G	ADA	hom	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-109	chr20	44625566	C	G	ADA	hom	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-110	chr22	17182620	C	T	ADA2	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	1879547
 SYN-110	chr22	17209539	C	G	ADA2	het	second				
 SYN-111	chr19	8589302	C	A	ADAMTS10	hom	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	1950
 SYN-112	chr11	130449096	C	G	ADAMTS15	hom	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	2584761
 SYN-113	chr9	133547073	G	A	ADAMTSL2	het	second				
-SYN-113	chr9	133570448	G	T	ADAMTSL2	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-113	chr9	133570448	G	T	ADAMTSL2	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-114	chr16	57659534	C	T	ADGRG1	hom	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	158618
 SYN-115	chr10	111078198	C	T	ADRA2A	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	2691730
 SYN-116	chr18	12351096	G	A	AFG3L2	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	973106
@@ -152,7 +152,7 @@ SYN-124	chr3	49417892	C	T	AMT	het	second
 SYN-124	chr3	49422223	C	T	AMT	het	primary	missense_variant	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	11975
 SYN-125	chr11	116836019	A	G	APOA1	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	17933
 SYN-126	chr11	116821862	G	C	APOA4	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	3764740
-SYN-127	chr17	8315095	G	A	ARHGEF15	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-127	chr17	8315095	G	A	ARHGEF15	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-128	chr2	231206294	G	T	ARMC9	hom	primary	intron_variant	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	427931
 SYN-129	chr8	18075541	G	A	ASAH1	hom	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	35544
 SYN-130	chr6	100601832	G	A	ASCC3	het	second				
@@ -171,21 +171,21 @@ SYN-138	chr22	17592721	G	A	ATP6V1E1	hom	primary	missense_variant	Pathogenic/Like
 SYN-139	chr15	44715641	G	A	B2M	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	31907
 SYN-140	chr10	119672372	C	T	BAG3	het	primary	missense_variant	Pathogenic/Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	657299
 SYN-141	chr17	81104066	C	G	BAIAP2	het	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	4685570
-SYN-142	chr11	66523885	G	A	BBS1	hom	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
-SYN-143	chr2	169487136	T	C	BBS5	hom	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-142	chr11	66523885	G	A	BBS1	hom	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
+SYN-143	chr2	169487136	T	C	BBS5	hom	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-144	chr6	80169013	C	T	BCKDHB	hom	primary	missense_variant	Likely_pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	11938
 SYN-145	chr16	31110716	G	C	BCKDK	hom	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	39745
 SYN-146	chr5	173144632	A	T	BNIP1	hom	primary	intron_variant	Uncertain_significance	criteria_provided,_single_submitter	1013617
 SYN-147	chr2	27226130	G	A	CAD	het	primary	splice_acceptor_variant	Pathogenic	criteria_provided,_single_submitter	203465
 SYN-147	chr2	27242098	G	A	CAD	het	second				
 SYN-148	chr14	90404693	C	G	CALM1	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	183231
-SYN-149	chr2	47161750	C	G	CALM2	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-149	chr2	47161750	C	G	CALM2	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-150	chr19	36142298	A	G	CAPNS1	hom	primary	splice_acceptor_variant	Pathogenic	no_assertion_criteria_provided	3066189
 SYN-151	chr21	46125265	G	T	COL6A2	het	second				
 SYN-151	chr21	46125500	TTCGTCA	T	COL6A2	het	primary	inframe_deletion	Pathogenic	no_assertion_criteria_provided	36916
-SYN-152	chr19	18786623	GGGC	G	COMP	het	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
+SYN-152	chr19	18786623	GGGC	G	COMP	het	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
 SYN-153	chr16	56334827	CCCACTTCACATTCAAGAACCT	C	GNAO1	het	primary	inframe_deletion	Pathogenic	no_assertion_criteria_provided	66114
-SYN-154	chr3	119654577	GTAGTGCAGAAAC	G	POPDC2	hom	primary	inframe_indel	Pathogenic	criteria provided, single submitter	.
+SYN-154	chr3	119654577	GTAGTGCAGAAAC	G	POPDC2	hom	primary	inframe_indel	Pathogenic	criteria_provided,_single_submitter	.
 SYN-155	chr19	32676355	CGGACTCGCA	C	RGS9BP	hom	primary	inframe_deletion	drug_response	no_assertion_criteria_provided	2499979
 SYN-156	chr11	45805892	G	T	SLC35C1	het	second				
 SYN-156	chr11	45806301	CCTT	C	SLC35C1	het	primary	inframe_indel	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	144046
@@ -205,17 +205,17 @@ SYN-167	chr11	116762901	G	A	BUD13	hom	primary	stop_gained	Pathogenic	criteria_pr
 SYN-168	chr11	34086169	C	T	CAPRIN1	het	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	4855968
 SYN-169	chr7	143304730	C	T	CASP2	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	2499470
 SYN-170	chr12	57751078	G	A	CDK4	het	primary	stop_gained	Uncertain_significance	criteria_provided,_single_submitter	565432
-SYN-171	chr1	43224076	C	T	CFAP57	hom	primary	stop_gained	Pathogenic	criteria provided, single submitter	.
+SYN-171	chr1	43224076	C	T	CFAP57	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	.
 SYN-172	chr8	60741901	C	T	CHD7	het	primary	stop_gained	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	195321
 SYN-173	chr15	40472009	T	TA	CHST14	hom	primary	stop_gained	Pathogenic	criteria_provided,_single_submitter	816708
 SYN-174	chr10	100205167	G	A	CHUK	hom	primary	stop_gained	Pathogenic	no_assertion_criteria_provided	8946
-SYN-175	chr15	67236719	TG	T	AAGAB	het	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
+SYN-175	chr15	67236719	TG	T	AAGAB	het	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-176	chr15	84840690	AC	A	ALPK3	hom	primary	frameshift_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	427757
-SYN-177	chr4	79983928	CCA	C	ANTXR2	hom	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
+SYN-177	chr4	79983928	CCA	C	ANTXR2	hom	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-178	chr10	97263447	G	GT	ARHGAP19	hom	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	4687858
-SYN-179	chr1	197124923	TATCCACA	T	ASPM	hom	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
+SYN-179	chr1	197124923	TATCCACA	T	ASPM	hom	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-180	chr19	15263537	C	TG	BRD4	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	2671881
-SYN-181	chr3	9742051	G	GATGC	BRPF1	het	primary	frameshift_variant	Pathogenic	criteria provided, single submitter	.
+SYN-181	chr3	9742051	G	GATGC	BRPF1	het	primary	frameshift_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-182	chr10	49324457	GA	G	C10ORF71	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	3906946
 SYN-183	chr11	65183541	TC	T	CAPN1	het	primary	frameshift_variant	Pathogenic	no_assertion_criteria_provided	225767
 SYN-183	chr11	65206824	G	A	CAPN1	het	second				
@@ -232,10 +232,10 @@ SYN-192	chr1	182388737	T	A	GLUL	het	primary	start_lost	Pathogenic	criteria_provi
 SYN-193	chr17	41571523	A	C	KRT9	het	primary	missense_variant	not_provided	no_classification_provided	66153
 SYN-194	chr16	89553932	G	C	SPG7	hom	primary	missense_variant	Likely_pathogenic	criteria_provided,_single_submitter	6815
 SYN-195	chr9	36169627	A	T	CCIN	hom	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	3236746
-SYN-196	chr3	58077261	G	C	FLNB	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-196	chr3	58077261	G	C	FLNB	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-197	chr19	38283685	G	GTA	SPINT2	het	primary	frameshift_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	3062101
 SYN-197	chr19	38290215	A	G	SPINT2	het	second				
 SYN-198	chr1	110174012	G	A	SLC6A17	hom	primary	missense_variant	Pathogenic	no_assertion_criteria_provided	187769
 SYN-199	chr5	75354678	G	C	HMGCR	het	second				
-SYN-199	chr5	75355129	T	C	HMGCR	het	primary	missense_variant	Pathogenic	criteria provided, single submitter	.
+SYN-199	chr5	75355129	T	C	HMGCR	het	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
 SYN-200	chr4	48548696	A	G	FRYL	het	primary	missense_variant	Uncertain_significance	criteria_provided,_single_submitter	2692414
