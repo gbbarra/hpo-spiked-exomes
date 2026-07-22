@@ -24,6 +24,39 @@ source case is biallelic) **planted at an exact coordinate**. The answer key is 
 
 ---
 
+## How it works
+
+Each case is a **real exome with one known answer hidden inside it**. It is built from two real,
+openly-licensed sources — a healthy background and a real patient's causative variant:
+
+1. **Background** — a real, healthy [1000 Genomes](https://www.internationalgenome.org/) exome
+   (Illumina **DRAGEN v4.4.7**, from the public AWS Open Data bucket), subset to the MANE exome region
+   (~100k genuine variants).
+2. **Plant** — **one** pathogenic variant from a real, published patient case in the
+   [GA4GH Phenopacket Store](https://github.com/monarch-initiative/phenopacket-store) is inserted at its
+   exact `chrom:pos:ref:alt`, carrying that patient's **HPO terms** and **diagnosis** (and, for biallelic
+   cases, the real second allele).
+3. **Tell-free** — the planted record borrows a real DRAGEN call's quality fields and drops every
+   synthetic marker, so it is **indistinguishable from a genuine call**. Nothing in the VCF flags which
+   variant is the plant.
+4. **Answer key** — the truth (gene · coordinate · consequence · HPO · disease) lives **only in this
+   repo** (`manifest/`, `sidecars/`), never in the VCF — so any tool can be scored **blind**.
+
+```mermaid
+flowchart LR
+    A["Real 1000G DRAGEN exome<br/>healthy background · ~100k variants"] --> C
+    B["1 pathogenic variant from a real<br/>GA4GH Phenopacket case<br/>+ that patient's HPO &amp; diagnosis"] --> C
+    C["Plant at the exact coordinate ·<br/>borrow a real call's quality fields ·<br/>strip every marker"]
+    C --> D["Tell-free VCF<br/>realistic/SYN-NNN.vcf.gz"]
+    C --> E["Answer key, external<br/>manifest/ + sidecars/"]
+    D --> F["SnpEff-annotated copy<br/>realistic_annotated/"]
+```
+
+**What it's for:** run your **annotator** (consequence / HGVS), **variant caller** (is the plant
+recovered?), or **clinical-report generator** (does it reach the planted gene from the VCF + HPO?) over
+`realistic/`, then score the output against the answer key. Because the plant is unmarked, the score is
+honest. The full build pipeline is in [`scripts/build/`](scripts/build/BUILD.md).
+
 ## Get the data
 
 The VCFs (~3 GB) ship as **[release assets](https://github.com/gbbarra/hpo-spiked-exomes/releases)**;
