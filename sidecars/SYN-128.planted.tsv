@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-128	chr2	231206294	G	T	ARMC9	hom	primary	intron_variant	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	427931
+SYN-128	chr2	231206294	G	T	ARMC9	hom	primary	splice_region_variant	Conflicting_classifications_of_pathogenicity	criteria_provided,_conflicting_classifications	427931

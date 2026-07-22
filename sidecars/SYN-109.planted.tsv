@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-109	chr20	44625566	C	G	ADA	hom	primary	missense_variant	Pathogenic	criteria_provided,_single_submitter	.
+SYN-109	chr20	44625566	C	G	ADA	hom	primary	splice_region_variant	Pathogenic	criteria_provided,_single_submitter	.

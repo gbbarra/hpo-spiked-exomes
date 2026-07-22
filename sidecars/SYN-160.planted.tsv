@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-160	chr4	6301174	CCACCGAGGT	C	WFS1	hom	primary	inframe_deletion	Likely_pathogenic	criteria_provided,_single_submitter	4514
+SYN-160	chr4	6301174	CCACCGAGGT	C	WFS1	hom	primary	disruptive_inframe_deletion	Likely_pathogenic	criteria_provided,_single_submitter	4514

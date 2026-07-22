@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-159	chr16	20349012	CTTCGGGGCAGA	AGGAGGCGG	UMOD	het	primary	non-coding_transcript_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	242346
+SYN-159	chr16	20349012	CTTCGGGGCAGA	AGGAGGCGG	UMOD	het	primary	missense_variant	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	242346

@@ -1,2 +1,2 @@
 syn_id	chrom	pos	ref	alt	gene	zygosity	allele	consequence	clnsig	clnrevstat	clnvid
-SYN-087	chr22	23833669	GAGA	G	SMARCB1	het	primary	inframe_deletion	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	30201
+SYN-087	chr22	23833669	GAGA	G	SMARCB1	het	primary	disruptive_inframe_deletion	Pathogenic	criteria_provided,_multiple_submitters,_no_conflicts	30201
