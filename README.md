@@ -50,7 +50,7 @@ After `fetch.sh`:
 | `realistic/SYN-NNN.vcf.gz` | **Raw, tell-free** VCF — the plant carries a real DRAGEN call's INFO/FORMAT and **no marker**. Un-annotated. |
 | `realistic_annotated/SYN-NNN.annotated.vcf.gz` | The **same** VCF **SnpEff-annotated** (`GRCh38.mane.1.5.refseq`) — `ANN/LOF/NMD` added, still tell-free. |
 | `manifest/planted_variants.tsv` | **The answer key** — every planted allele (see the schema below). |
-| `manifest/cohort.tsv` | Per-sample config (sample id, gene, coord, consequence, disease, HPO). ⚠️ `disease` is populated for SYN-001–100 only; SYN-101–200 (the expansion batch) leave it blank — the diagnostic label there is the gene + HPO, not a disease string. |
+| `manifest/cohort.tsv` | Per-sample config (sample id, gene, coord, consequence, disease, HPO). All 200 rows carry a `disease` label — SYN-101–200 are filled from each case's **source phenopacket diagnosis** (matched by coordinate + exact HPO set; OMIM-backed). |
 | `sidecars/SYN-NNN.planted.tsv` · `sidecars/SYN-NNN.hpo.txt` | Per-sample answer key + HPO terms (one `HP:` per line). |
 
 The raw VCFs are **byte-derivable** from the annotated (`bcftools annotate -x INFO/ANN,INFO/LOF,INFO/NMD`),
@@ -190,8 +190,8 @@ corroboration) — documented, not hidden.
   **29/200** carry a **real but non-P/LP** label (VUS / Conflicting / Benign / …). Both are flagged in
   `manifest/planted_variants.tsv`.
 - **GRCh38 only.**
-- `cohort.tsv`'s `disease` name is filled for **SYN-001–100 only**; the SYN-101–200 expansion batch
-  leaves it blank (gene + HPO still fully specified). Disease is not carried in the manifest/sidecars.
+- The `disease` label lives in `cohort.tsv` only (not the manifest/sidecars); for SYN-101–200 it is the
+  source phenopacket's diagnosis, recovered by coordinate + exact-HPO match to Phenopacket Store 0.1.27.
 
 ## Reproducibility — versions
 
