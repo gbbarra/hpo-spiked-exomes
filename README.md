@@ -102,34 +102,33 @@ is a possible follow-up.)
   consequence, and disease. Real ClinVar `CLNSIG` where the coordinate is in ClinVar; a **synthetic**
   label (flagged in the manifest) where it is not.
 - **Scope** — plants are **SNV / small-indel only** (137 SNV + 63 indel); structural variants are out
-  of scope. The per-case `consequence` in `cohort.tsv` is a build-time heuristic — the **authoritative**
-  molecular consequence is in the manifest (see [The answer key](#the-answer-key)).
+  of scope. `cohort.tsv` and the manifest carry the **same** consequence — the real **SnpEff** SO term
+  at the planted coordinate (see [Data corrections](#data-corrections-post-data-v1)).
 - **Faithful genotypes** — the patient's real zygosity.
 - **Consequence spread** — designed to cover missense / stop-gained / frameshift / in-frame / start-loss.
 
 ### Cohort composition
 
-The consequence counts below are from the **answer key** (`manifest/planted_variants.tsv`) — the real
-per-allele term a scorer should check against. `cohort.tsv` also has a `consequence` column, but it is
-a **coarse 5-bucket design label** and diverges from the answer key for 34 cases (see the note under
-[The answer key](#the-answer-key)); score against the manifest, not the cohort column.
+The consequence counts below are the **SnpEff-reconciled** SO term of each primary plant
+(`manifest/planted_variants.tsv`, the answer key); `cohort.tsv` now carries the identical value
+(see [Data corrections](#data-corrections-post-data-v1)).
 
 | Molecular consequence (answer key) | n | | Genotype of the plant | n |
 |---|---:|---|---|---:|
-| missense | 76 | | single-allele heterozygous | 85 |
-| stop-gained | 42 | | **compound heterozygous** (both true alleles) | 40 |
-| frameshift | 36 | | homozygous | 75 |
-| in-frame (indel / deletion / insertion) | 19 | | | |
-| splice donor / acceptor | 11 | | | |
+| missense | 73 | | single-allele heterozygous | 85 |
+| stop-gained | 41 | | **compound heterozygous** (both true alleles) | 40 |
+| frameshift | 39 | | homozygous | 75 |
+| in-frame (disruptive / conservative) | 19 | | | |
+| splice (donor / acceptor / region) | 15 | | | |
 | start-loss | 9 | | | |
-| non-coding / intron | 5 | | | |
-| stop-loss | 2 | | | |
+| non-coding / intron | 3 | | | |
+| stop-loss | 1 | | | |
 | **Total primary plants** | **200** | | **Total** | **200** |
 
 240 planted alleles in all = 200 primary + 40 trans (`second`) alleles for the compound-het cases.
 The splice / non-coding / stop-loss tail is exactly why a few plants land at VUS in the reference
 run — the honest, [de-circularized](#the-realistic-tell-free-transform--and-the-honest-adjustments)
-consequence, not the coarse bucket.
+consequence the real annotator assigns.
 
 ## The answer key
 
@@ -142,18 +141,17 @@ consequence, not the coarse bucket.
 | `gene` | Gene symbol | HGNC symbol |
 | `zygosity` | Genotype of the planted call | `het` \| `hom` |
 | `allele` | Role of this row | `primary` (the reported causative allele) \| `second` (trans allele of a compound-het case) |
-| `consequence` | **Authoritative** molecular consequence *(primary rows only)* — the real ClinVar MC term | `missense_variant`, `stop_gained`, `frameshift_variant`, `inframe_deletion`, `splice_donor_variant`, `start_lost`, `non-coding_transcript_variant`, … |
+| `consequence` | **Authoritative** molecular consequence *(primary rows only)* — the **SnpEff** SO term at the planted coordinate (`GRCh38.mane.1.5.refseq`); `cohort.tsv` carries the same value | `missense_variant`, `stop_gained`, `frameshift_variant`, `disruptive_inframe_deletion`, `splice_donor_variant`, `start_lost`, `non_coding_transcript_exon_variant`, … |
 | `clnsig` | ClinVar significance carried from the exact coordinate; **synthetic `Pathogenic`** when `clnvid` is empty | ClinVar CLNSIG string |
 | `clnrevstat` | ClinVar review status *(underscored ClinVar encoding)* | e.g. `criteria_provided,_multiple_submitters,_no_conflicts` |
 | `clnvid` | ClinVar Variation ID; **empty ⇒ coordinate absent from the ClinVar release ⇒ `clnsig` is synthetic** | integer or empty |
 
 `second`-allele rows leave `consequence` / `clnsig` / `clnrevstat` / `clnvid` blank.
 
-> **Two `consequence` columns, on purpose.** `manifest.consequence` (above) is the authoritative
-> per-allele term from ClinVar's molecular consequence — **score against this**. `cohort.tsv.consequence`
-> is the coarse 5-bucket design label used to plan the stratification; it differs for 34 cases (e.g. a
-> planned `missense` that ClinVar's MC calls `splice_donor_variant`, or an in-frame indel resolved to
-> `inframe_deletion`). The divergence is the intended [de-circularization](#the-realistic-tell-free-transform--and-the-honest-adjustments), not an error.
+> **Consequence = the real SnpEff annotation.** `manifest.consequence` and `cohort.tsv.consequence`
+> both carry the SnpEff SO term at the planted coordinate (`GRCh38.mane.1.5.refseq`) and now agree on
+> every primary plant — reconciled from an earlier source-derived value
+> (see [Data corrections](#data-corrections-post-data-v1)). Score against it directly.
 
 ### ClinVar label of the primary plant
 
